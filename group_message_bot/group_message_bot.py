@@ -11,11 +11,11 @@ wait = WebDriverWait(driver, 10)
 driver.maximize_window()
 
 #fill array with responses
-response = []
+response = [Hii]
 driver.get('https://www.instagram.com/')
 
 #Change username and password to your username and password
-wait.until(ec.element_to_be_clickable((By.NAME, "username"))).send_keys(username)
+wait.until(ec.element_to_be_clickable((By.NAME, "_mahnoor.fr"))).send_keys(_mahnoor.fr)
 el = wait.until(ec.element_to_be_clickable((By.NAME, "password")))
 el.send_keys(password)
 
@@ -25,7 +25,7 @@ el.send_keys(Keys.ENTER)
 
 sleep(5)
  #Change URL to custom message URL
-driver.get(URL)
+driver.get(https://www.instagram.com/direct/t/8028059107276992/)
 sleep(5)
 driver.find_element(By.XPATH, '/html/body/div[5]/div[1]/div/div[2]/div/div/div/div/div[2]/div/div/div[3]/button[2]').click()
 sleep(5)
